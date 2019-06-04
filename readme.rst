@@ -1,29 +1,30 @@
 ###################
-What is CodeIgniter
+What is CI PHP Crud
 ###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
+CI PHP Crud is an Admin CRUD CMS using CodeIgniter Framework - a toolkit - for people
+who build web sites using PHP. Its goal is to help you to save time and effort of develop projects
 much faster than you could if you were writing code from scratch, by providing
 a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+interface and logical structure to access these admin panel. CI Crud lets
+you creatively focus on your project by without the amount of code needed
+for a given task. 
+
+Using CI PHP Crud tools you can manage your masters data and CRUD functionality without writing single line of code. 
 
 *******************
 Release Information
 *******************
 
 This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+latest stable release please visit the official site phpcrud.com
 
 **************************
 Changelog and New Features
 **************************
 
 You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+guide change log 
 
 *******************
 Server Requirements
@@ -39,7 +40,7 @@ issues, as well as missing features.
 Installation
 ************
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
+Please see the `installation section 
 of the CodeIgniter User Guide.
 
 *******
