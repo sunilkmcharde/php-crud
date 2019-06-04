@@ -1,0 +1,13 @@
+--
+-- Updated date : 09-04-2019 for custome data list magage
+--
+
+
+ALTER TABLE `crud_masters` ADD `list_controller` VARCHAR(150) NULL DEFAULT NULL AFTER `is_custom_form`, ADD `list_method` VARCHAR(150) NULL DEFAULT NULL AFTER `list_controller`;
+
+ALTER TABLE `crud_masters` CHANGE `action_controller` `action_controller` VARCHAR(150) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL COMMENT 'Custom Form Controller', CHANGE `action_method` `insert_method` VARCHAR(150) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL COMMENT 'Data Insert Method', CHANGE `list_controller` `update_method` VARCHAR(150) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL COMMENT 'Data UpdateMethod', CHANGE `list_method` `list_method` VARCHAR(150) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL COMMENT 'Data List Method';
+
+ALTER TABLE `crud_masters` CHANGE `table_name` `table_name` VARCHAR(100) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL COMMENT 'DB Table Name';
+
+ALTER TABLE `crud_masters` CHANGE `trash_on_delete` `trash_on_delete` TINYINT(1) NOT NULL DEFAULT '0', CHANGE `can_empty_trash` `can_empty_trash` TINYINT(1) NOT NULL DEFAULT '1', CHANGE `can_undo_trash` `can_undo_trash` TINYINT(1) NOT NULL DEFAULT '1', CHANGE `form_column_layout` `form_column_layout` TINYINT(1) NOT NULL DEFAULT '1', CHANGE `is_active` `is_active` TINYINT(1) NOT NULL DEFAULT '1';
+
